@@ -1,0 +1,1 @@
+"./Kernel_Calls.obj" "./Process.obj" "./ServiceCalls.obj" "./UART0.obj" "./dataLink.obj" "./main.obj" "./physical.obj" "./priorityQueue.obj" "./registerProcess.obj" "./sysTick.obj" "./testProcess.obj" "./tm4c1294ncpdt_startup_ccs.obj" "../tm4c1294ncpdt.cmd" -llibc.a 
