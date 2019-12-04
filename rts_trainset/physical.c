@@ -24,8 +24,13 @@ void outFrame(PACKET data){
     int chksum = 0;
     unsigned short len = data.length;
     int i;
+
     /*  Send STX    */
+
+
     for(i=0 ;i<len ;i++){
 
     }
+
+
 }
