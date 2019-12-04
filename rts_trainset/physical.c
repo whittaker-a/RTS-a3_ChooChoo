@@ -16,14 +16,16 @@
  * This function receives a packet to be transferred
  * and prepares a frame
  *
- * a frame consists of a start bit: stx
- * and an end bit: etx
+ * a frame consists of a start bit: STX
+ * and an end bit: ETX
  *
  */
 void outFrame(PACKET data){
     int chksum = 0;
     unsigned short len = data.length;
+    int i;
+    /*  Send STX    */
+    for(i=0 ;i<len ;i++){
 
-
-
+    }
 }
